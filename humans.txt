@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Umer Hassan -- Web & Mobile Application Developer -- http://github.com/modojodo
+
+# THANKS
+
+    Entire Team
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, JavaScript
+    jQuery, Modernizr, Normalize.css
