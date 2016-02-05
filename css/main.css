@@ -168,6 +168,7 @@ body {
     display: flex;
     flex-flow: row;
     align-items: center;
+    align-items: center;
 }
 
 .section > .wrapper {
@@ -245,18 +246,16 @@ body {
 
 #slick {
     text-align: center;
-
-
+    overflow: hidden;
+    min-height: 420px;
 }
 
-#product .wrapper {
-    padding: 20px 0 20px 0;
-    background-color: #FDFDFE;
-    box-shadow: 2px 2px 5px 5px black ;
+#slick div {
+    outline: none;
+    padding: 0px;
 }
 
 #slick img {
-    max-width: 100px;
     display: block;
     margin: auto;
     outline: none !important;
@@ -264,28 +263,87 @@ body {
 
 }
 
-#slick div {
-    outline: none;
+#product {
+    background-image: url("../img/square_bg.png");
+    background-repeat: repeat;
+    /*background-color: #f2f1ef;*/
 }
 
-#slick img {
-    /*width: 200px;*/
-    /*max-width: 100px;*/
-    /*height: auto;*/
+/*#slick> div:not(.slick-center):not(.slick-active){*/
+/**/
+/*}*/
+.slick-slide img {
+    width: 80px;
+    transition: 500ms ease;
 }
 
-/*.slick-active img {*/
-/*width: 100px !important;*/
-/*height: auto !important;*/
-/*transition: 100ms ease;*/
-/*}*/
+.slick-active:not(.slick-center) img {
+    width: 120px;
+    height: auto;
+    transition: 500ms ease;
+}
 
-/*.slick-center img {*/
-/*max-width: 180px !important;*/
-/*height: auto !important;*/
-/*!*transition: 100ms ease;*!*/
+.slick-center img {
+    width: 230px !important;
+    height: auto !important;
+    transition: 500ms ease;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
-/*}*/
+.slick-arrow {
+
+    position: absolute;
+    top: 30%;
+}
+
+.slick-prev {
+    color: #000;
+    left: 5%;
+}
+
+.slick-next {
+    color: #000;
+    right: 5%;
+}
+
+
+.sect-heading {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.sect-heading:before {
+    content: "";
+    margin-right: 20px;
+    width: 15%;
+    height: 2px;
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: 20%;
+}
+.sect-heading:after {
+    content: "";
+    margin-left: 20px;
+    width: 15%;
+    height: 2px;
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: 20%;
+
+}
+
+.sect-heading-highlight {
+    color: #ef3b39;
+}
+.sect-heading-desc{
+    font-size: 20px;
+    margin-bottom:50px;
+}
+
+
 
 /*Navbar Styling, DO NOT CHANGE THIS*/
 
