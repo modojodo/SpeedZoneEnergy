@@ -105,7 +105,7 @@ body {
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    padding-top: 40px;
+    /*padding-top: 40px;*/
 }
 
 .nav > li a:after {
@@ -165,17 +165,6 @@ body {
 /* ==== CAUTION: DON NOT CHANGE THIS SECTION , NOT EVEN WITH ANY OTHER CSSS RULE  ====*/
 .section {
     text-align: center;
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    align-items: center;
-}
-
-.section > .wrapper {
-    display: inline-block;
-    width: 100%;
-    vertical-align: middle;
-    float: none;
 }
 
 /*----------- Vertically alignment of each section ends here--------------*/
@@ -248,6 +237,7 @@ body {
     text-align: center;
     overflow: hidden;
     min-height: 420px;
+    max-width: 1250px;
 }
 
 #slick div {
@@ -269,9 +259,6 @@ body {
     /*background-color: #f2f1ef;*/
 }
 
-/*#slick> div:not(.slick-center):not(.slick-active){*/
-/**/
-/*}*/
 .slick-slide img {
     width: 80px;
     transition: 500ms ease;
@@ -307,7 +294,6 @@ body {
     right: 5%;
 }
 
-
 .sect-heading {
     text-transform: uppercase;
     color: #fff;
@@ -315,35 +301,37 @@ body {
     font-weight: bold;
 }
 
-.sect-heading:before {
-    content: "";
-    margin-right: 20px;
-    width: 15%;
-    height: 2px;
-    background-color: #fff;
-    display: inline-block;
-    vertical-align: 20%;
-}
-.sect-heading:after {
-    content: "";
-    margin-left: 20px;
-    width: 15%;
-    height: 2px;
-    background-color: #fff;
-    display: inline-block;
-    vertical-align: 20%;
+/*========DON'T REMOVE UNTIL DEPLOYED==============*/
 
-}
+/*.sect-heading:before {*/
+/*content: "";*/
+/*margin-right: 20px;*/
+/*width: 15%;*/
+/*height: 2px;*/
+/*background-color: #fff;*/
+/*display: inline-block;*/
+/*vertical-align: 20%;*/
+/*}*/
+
+/*.sect-heading:after {*/
+/*content: "";*/
+/*margin-left: 20px;*/
+/*width: 15%;*/
+/*height: 2px;*/
+/*background-color: #fff;*/
+/*display: inline-block;*/
+/*vertical-align: 20%;*/
+
+/*}*/
 
 .sect-heading-highlight {
     color: #ef3b39;
 }
-.sect-heading-desc{
-    font-size: 20px;
-    margin-bottom:50px;
+
+.sect-heading-desc {
+    font-size: 18px;
+    margin-bottom: 50px;
 }
-
-
 
 /*Navbar Styling, DO NOT CHANGE THIS*/
 
