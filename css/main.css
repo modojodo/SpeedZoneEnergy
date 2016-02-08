@@ -316,7 +316,6 @@ a.nostyle:visited {
 
 }
 
-
 /*========DON'T REMOVE UNTIL DEPLOYED==============*/
 
 /*.sect-heading:before {*/
@@ -354,7 +353,7 @@ a.nostyle:visited {
 .sect-heading-desc {
     font-size: 18px;
     margin-bottom: 80px;
-    color:#fff;
+    color: #fff;
     color: rgba(255, 255, 255, 0.8);
 
 }
@@ -396,8 +395,7 @@ a.nostyle:visited {
 }
 
 .feature-head {
-    color: #000;
-    color: rgba(0,0,0,0.8);
+    color: #fff;
     font-weight: bolder;
     font-size: 25px;
 }
@@ -406,18 +404,99 @@ a.nostyle:visited {
     color: #fff;
     color: rgba(255, 255, 255, 0.8);
     font-size: 18px;
-    padding:5px;
+    padding: 5px;
     transition: all 0.5s ease;
 }
+
 .feature-desc:hover {
     color: #fff;
     cursor: pointer;
     border-radius: 2px;
     color: rgba(255, 255, 255, 0.8);
     font-size: 18px;
-    background-color:rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
+/*CSS for contact Section*/
+
+#contact-form {
+    text-align: left;
+}
+
+#seventh .wrapper > div:first-child {
+    margin-bottom: 40px;
+}
+
+#contact-form input {
+    margin-bottom: 15px;
+}
+
+.btn-submit {
+    color: #ffffff;
+    border-color: #ffffff;
+    background-image: none;
+    background: transparent;
+    transition: all 500ms;
+}
+
+.btn-submit:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+.btn-submit:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+.form-control {
+    border-color: #ffffff;
+!important;
+    box-shadow: 0 0 8px rgba(155, 89, 182, 0.2);
+    outline: 0 none;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.form-control:hover {
+    border-color: rgba(239, 59, 57, 1);
+!important;
+    box-shadow: 0 0 10px rgba(239, 59, 57, 1);
+    outline: 0 none;
+    /*background-color: #ffffff;*/
+}
+
+.form-control:focus {
+    border-color: rgba(239, 59, 57, 1);
+!important;
+    box-shadow: 0 0 10px rgba(239, 59, 57, 1);
+    outline: 0 none;
+    background-color: #ffffff;
+}
+
+.error {
+    color: #BF55EC;
+}
+
+.contact {
+
+    font-family: 'Exo', sans-serif;
+}
+
+.contact h4 {
+    font-family: 'Exo', sans-serif;
+}
+
+.contact p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.icon-contact {
+    color: #ef3b39;
+    opacity: 0.7;
+    margin-right: 10px;
+}
 
 /*Navbar Styling, DO NOT CHANGE THIS*/
 
