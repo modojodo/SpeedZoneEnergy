@@ -1,4 +1,31 @@
 $(function () {
+    $("#slick").slick({
+        centerMode: true,
+        centerPadding: '280px',
+        slidesToShow: 3,
+        speed: 100,
+        draggable: false
+//        responsive: [
+//            {
+//                breakpoint: 768,
+//                settings: {
+//                    arrows: false,
+//                    centerMode: true,
+//                    centerPadding: '60px',
+//                    slidesToShow: 2
+//                }
+//            },
+//            {
+//                breakpoint: 480,
+//                settings: {
+//                    arrows: true,
+//                    centerMode: true,
+//                    centerPadding: '60px',
+//                    slidesToShow: 1
+//                }
+//            }
+//        ]
+    });
 
 
 //  initializing jQuery backstretch
