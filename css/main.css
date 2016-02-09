@@ -450,6 +450,10 @@ a.nostyle:visited {
     background-color: transparent;
     color: #ffffff;
 }
+.form-control:focus {
+
+    color: #000;
+}
 
 .inner-txt-visibe {
 
