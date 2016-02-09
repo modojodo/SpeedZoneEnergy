@@ -4,28 +4,7 @@ $(function () {
         centerPadding: '280px',
         slidesToShow: 3,
         speed: 100,
-        draggable: false,
-        //infinite:false
-//        responsive: [
-//            {
-//                breakpoint: 768,
-//                settings: {
-//                    arrows: false,
-//                    centerMode: true,
-//                    centerPadding: '60px',
-//                    slidesToShow: 2
-//                }
-//            },
-//            {
-//                breakpoint: 480,
-//                settings: {
-//                    arrows: true,
-//                    centerMode: true,
-//                    centerPadding: '60px',
-//                    slidesToShow: 1
-//                }
-//            }
-//        ]
+        draggable: false
     });
     $(".owl-carousel").owlCarousel({
         autoPlay: 2500,
@@ -42,15 +21,15 @@ $(function () {
         scrollOverflow: true,
         onLeave: function (index, nextIndex, direction) {
 
-            //// Make navbar active after leaving 1st section
-            //
-            //if(index == 1 && nextIndex != 1){
-            //    $(".navbar").toggleClass("navbar__initial");
-            //}
-            //
-            //if(index != 1 && nextIndex == 1){
-            //    $(".navbar").toggleClass("navbar__initial");
-            //}
+            // Make navbar active after leaving 1st section
+
+            if(index == 1 && nextIndex != 1){
+                $(".navbar").toggleClass("navbar-initial");
+            }
+
+            if(index != 1 && nextIndex == 1){
+                $(".navbar").toggleClass("navbar-initial");
+            }
 
             // Change Backstretch image on fullPage scroll
 
