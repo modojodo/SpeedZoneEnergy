@@ -157,15 +157,18 @@ body {
 
 .nav > li {
     text-transform: uppercase;
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+
 }
+
 
 /*----------- Vertically alignment of each section begins here--------------*/
 
 /* ==== CAUTION: DON NOT CHANGE THIS SECTION , NOT EVEN WITH ANY OTHER CSSS RULE  ====*/
 .section {
     text-align: center;
-    /*padding-top: 100px;*/
+    /*padding-top: 80px;*/
     /*margin-top:60px;*/
 }
 
@@ -457,6 +460,10 @@ a.nostyle:visited {
     background-color: transparent;
     color: #ffffff;
 }
+.inner-txt-visibe{
+
+}
+
 
 .form-control:hover {
     border-color: rgba(239, 59, 57, 1);
@@ -502,7 +509,7 @@ a.nostyle:visited {
 
 .navbar-default {
     font-weight: bold;
-    background-color: #000000;
+    background-color: rgba(0,0,0,0.4);
     border-color: #000000;
 }
 
@@ -532,14 +539,14 @@ a.nostyle:visited {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
     color: #Ef3B39;
-    background-color: #000000;
+    background-color: rgba(0,0,0,0.4);
 }
 
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
     color: #Ef3B39;
-    background-color: #000000;
+    background-color: rgba(0,0,0,0.4);
 }
 
 .navbar-default .navbar-toggle {
@@ -548,7 +555,7 @@ a.nostyle:visited {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #000000;
+    background-color: rgba(0,0,0,0.4);
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -582,7 +589,7 @@ a.nostyle:visited {
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
         color: #Ef3B39;
-        background-color: #000000;
+        background-color: rgba(0,0,0,0.4);
     }
 }
 
