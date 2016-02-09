@@ -4,7 +4,8 @@ $(function () {
         centerPadding: '280px',
         slidesToShow: 3,
         speed: 100,
-        draggable: false
+        draggable: false,
+        //infinite:false
 //        responsive: [
 //            {
 //                breakpoint: 768,
@@ -26,7 +27,11 @@ $(function () {
 //            }
 //        ]
     });
+    $(".owl-carousel").owlCarousel({
+        autoPlay: 2500,
+        stopOnHover: true
 
+    });
 
 //  initializing jQuery backstretch
     $.backstretch(["../img/lambo.jpg", "../img/summer.jpg", "../img/bmw.jpg", "../img/steering.jpg"], {fade: 1000});

@@ -638,6 +638,17 @@ a.nostyle:visited {
     visibility: hidden;
 }
 
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centering {
+    float: none;
+    margin: 0 auto;
+}
+
 /*
  * Clearfix: contain floats
  *
