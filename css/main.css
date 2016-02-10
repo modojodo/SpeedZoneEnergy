@@ -1,10 +1,13 @@
-/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
-
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
+/*------------------------------------------------------------------
+Project:        Speed Zone Energy
+Author:         Umer Hassan
+URL:            https://github.com/modojodo
+                https://twitter.com/modojodo
+                https://www.facebook.com/umer.hass
+Version:        2.2.0
+Created:        18/08/2014
+Last change:    30/04/2015
+-------------------------------------------------------------------*/
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -503,7 +506,7 @@ a.nostyle:visited {
 /*Spinner Styling*/
 
 #preloader {
-    background-color: #ef3b39;
+    background-color: #333333;
     position: fixed;
     /*top: 50%;*/
     /*left: 50%;*/
