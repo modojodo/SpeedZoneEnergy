@@ -502,6 +502,11 @@ a.nostyle:visited {
     opacity: 0.7;
     margin-right: 10px;
 }
+.empty-icon{
+    color: transparent !important;
+    /*visibility: hidden !important;*/
+    /*display: none;*/
+}
 
 /*Spinner Styling*/
 
@@ -517,6 +522,11 @@ a.nostyle:visited {
 }
 
 /*Navbar Styling, DO NOT CHANGE THIS*/
+
+.nav > li.active{
+    outline: none;
+    text-shadow: none;
+}
 
 .navbar-default {
     font-weight: bold;
